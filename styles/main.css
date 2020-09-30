@@ -1,9 +1,19 @@
-#fishtank {}
-
-.fish {}
-
-.fish__name {}
-
 img {
     width: 50px;
+}
+
+.contentContainer {
+    display: flex;
+}
+
+.contentContainer__left {
+    flex: 3;
+}
+
+.contentContainer__right {
+    flex: 1;
+}
+
+section, article, aside {
+    border: 1px dashed blue;
 }
