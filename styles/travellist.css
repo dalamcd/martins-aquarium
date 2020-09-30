@@ -1,0 +1,55 @@
+.travelContainer {
+    display: flex;
+}
+
+.travel__quotes {
+    flex: 1;
+}
+
+.travel__locations {
+    flex: 1;
+}
+
+.quote {
+    height: 225px;
+    border-top: 1px solid black;
+}
+
+.location {
+    height: 225px;
+    border-top: 1px solid black;
+}
+
+.quote__text {
+    padding-left: 1em;
+    font-style: italic;
+}
+
+.quote__author {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 1em;
+    margin: 0;
+}
+
+.quote__location {
+    text-align: right;
+    font-style: italic;
+    padding-right: 1em;
+    margin: 0;
+}
+
+.location__image {
+    margin: 1em;
+    width: 120px;
+}
+
+.location__name {
+    margin: 0;
+    padding-left: 1em;
+}
+
+.location__geo {
+    margin: 0;
+    padding-left: 1em;
+}
