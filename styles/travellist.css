@@ -1,5 +1,6 @@
 .travelContainer {
     display: flex;
+    border-right: 1px solid #d8dee8;
 }
 
 .travel__quotes {
@@ -12,12 +13,14 @@
 
 .quote {
     height: 230px;
-    border-top: 1px solid black;
+    border-top: 1px solid #d8dee8;
+    margin: 0 .5em;
 }
 
 .location {
     height: 230px;
-    border-top: 1px solid black;
+    border-top: 1px solid #d8dee8;
+    margin: 0 .5em;
 }
 
 .quote__text {
