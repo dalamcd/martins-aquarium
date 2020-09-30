@@ -5,9 +5,34 @@
 .fishContainer {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 5px;
 }
 
 .fish {
+    margin: 1em;
+    padding: 1em;
     border: 1px solid black;
     flex-basis: 24%;
+    font-size: 12px;
+}
+
+.fish__name {
+    margin: 0;
+}
+
+.fish__species{
+    margin: 0;
+}
+
+.fish__length {
+    margin: 0;
+}
+
+.fish__location {
+    margin: 0;
+}
+
+.fish__diet {
+    margin: 0;
 }
