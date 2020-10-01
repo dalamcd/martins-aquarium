@@ -1,6 +1,8 @@
 .travelContainer {
     display: flex;
     border-right: 1px solid #d8dee8;
+    background-color:#dfebff;
+
 }
 
 .travel__quotes {
@@ -34,6 +36,7 @@
     padding-right: 1em;
     margin: 0;
     flex-basis: 48%;
+    background-color: #d8dee8;
 }
 
 .quote__location {
@@ -42,6 +45,7 @@
     padding-right: 1em;
     margin: 0;
     flex-basis: 48%;
+    background-color: #d8dee8;
 }
 
 .location__image {

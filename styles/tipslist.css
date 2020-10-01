@@ -1,8 +1,20 @@
 .tip__species, .tip__topic, .tip__text {
     margin: 0;
     padding-left: 2em;
+
 }
 
-.tip {
-    margin-top: 15px;
+.careheader {
+    margin-bottom: 15px;
+    background-color: #d8dee8;
+}
+
+.tipsList {
+    background-color: #d8dee8;
+}
+
+.dot {
+    text-align: center;
+    font-size: 32px;
+    margin: 0 auto;
 }
