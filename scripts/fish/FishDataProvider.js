@@ -2,7 +2,7 @@ const fishCollection = [
     {
         name: "Bubba",
         species: "Ambystoma mexicanum",
-        length: 9.1,
+        length: 3,
         location: "Xochimilco (New Mexico)",
         diet: "Mollusks, worms, insect larvae, crustaceans and some fish",
         image: "images/axolotl.jpg"
@@ -34,7 +34,7 @@ const fishCollection = [
     {
         name: "Gustavo Mario Antoine III",
         species: "Puntius tetrazona",
-        length: 3,
+        length: 7,
         location: "Borneo",
         diet: "Brine shrimp, bloodworms",
         image: "images/alibinobarb.jpg"
@@ -42,7 +42,7 @@ const fishCollection = [
     {
         name: "Leopold",
         species: "Leporinus fasciatus",
-        length: 1,
+        length: 5,
         location: "South America",
         diet: "Beef heart, vegetable matter",
         image: "images/bandedleo.jpg"
@@ -59,4 +59,42 @@ const fishCollection = [
 
 export const useFish = () => {
     return fishCollection.slice();
+}
+
+export const mostHolyFish = () => {
+
+    const holyFish = [];
+
+    for(const fish of useFish()) {
+        if(fish.length % 3 === 0)
+        holyFish.push(fish);
+    }
+
+    return holyFish;
+}
+
+export const soldierFish = () => {
+
+    const soldiers = [];
+
+    for(const fish of useFish()) {
+        if(fish.length % 5 === 0 && fish.length % 3 !== 0) {
+            soldiers.push(fish);
+        }
+    }
+
+    return soldiers;
+}
+
+export const nonHolyFish = () => {
+
+    const regularFish = [];
+
+    for(const fish of useFish()) {
+        if(fish.length % 3 !== 0 && fish.length % 5 !== 0) {
+            regularFish.push(fish);
+        }
+    }
+
+    return regularFish;
 }
